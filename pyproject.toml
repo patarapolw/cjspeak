@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "html-speak"
+version = "0.1.1"
+description = "HTML TTS server for Chinese/Japanese and Jupyter Notebook"
+authors = ["Pacharapol Withayasakpunt <patarapolw@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["tts"]
+repository = "https://github.com/patarapolw/html-speak"
+homepage = "https://github.com/patarapolw/html-speak"
+
+[tool.poetry.dependencies]
+python = "*"
+falcon = "^1.4"
+gunicorn = "^19.9"
+regex = "=2018.02.21"
+ttslib = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+requests = "^2.20"
